@@ -20,3 +20,6 @@
 
 
 ### you can download and watch an example of a ready-made application: [Releases](https://github.com/saher228/WebWievAndroid-app-template/releases)
+
+
+[![Android CI](https://github.com/saher228/WebWievAndroid-app-template/actions/workflows/android.yml/badge.svg)](https://github.com/saher228/WebWievAndroid-app-template/actions/workflows/android.yml)
