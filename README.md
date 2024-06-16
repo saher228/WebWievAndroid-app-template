@@ -17,3 +17,6 @@
  **Or build it directly in Android studio**
 
 
+
+
+### you can download and watch an example of a ready-made application: [Releases](https://github.com/saher228/WebWievAndroid-app-template/releases)
