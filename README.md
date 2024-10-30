@@ -1,8 +1,9 @@
 # Installation
 > [!IMPORTANT]
-> Download and install Android studio and java JDK - full 22
+> Download and install Android studio and java JDK - full 21
 > Java Bellsoft: [Releases](https://github.com/bell-sw/Liberica/releases) and
 > [Android Studio](https://developer.android.com/studio)
+> Gradle 8.9 + plugin gradle AGP 8.7.1
 
 1. Along the way: ```app/src/main/AndroidManifest.xml``` you can change the name of the application and other settings
 

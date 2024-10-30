@@ -1,5 +1,17 @@
 [versions]
-agp = "8.4.0"
+activityVersion = "1.2.0"
+agp = "8.7.1"
+androidxJunit = "1.1.2"
+appcompatVersion = "1.2.0"
+constraintlayoutVersion = "2.0.4"
+espressoCoreVersion = "3.3.0"
+firebaseBom = "33.5.1"
+firebaseMessaging = "24.0.3"
+firebaseMessagingVersion = "21.1.0"
+googleServices = "4.4.2"
+googleServicesVersion = "4.3.10"
+gradle = "7.0.4"
+gradleVersion = "8.0.0"
 junit = "4.13.2"
 junitVersion = "1.1.5"
 espressoCore = "3.5.1"
@@ -7,16 +19,35 @@ appcompat = "1.6.1"
 material = "1.12.0"
 activity = "1.9.0"
 constraintlayout = "2.1.4"
+materialVersion = "1.3.0"
+coreKtx = "1.13.1"
+kotlin = "2.0.21"
 
 [libraries]
+activity-v120 = { module = "androidx.activity:activity", version.ref = "activityVersion" }
+appcompat-v120 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+constraintlayout-v204 = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayoutVersion" }
+espresso-core-v330 = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCoreVersion" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-messaging = { module = "com.google.firebase:firebase-messaging", version.ref = "firebaseMessaging" }
+firebase-messaging-v2110 = { module = "com.google.firebase:firebase-messaging", version.ref = "firebaseMessagingVersion" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+google-services-v4310 = { module = "com.google.gms:google-services", version.ref = "googleServicesVersion" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+gradle-v800 = { module = "com.android.tools.build:gradle", version.ref = "gradleVersion" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+junit-v112 = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+material-v130 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 
